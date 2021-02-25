@@ -10,11 +10,14 @@
   clear: both;
 }
 
+body{
+  width: 80%;
+}
 /* header */
 header{
-  width: 80%;
+  /* width: 80%; */
   margin: 0 auto;
-  margin-top: 1%;
+  margin-top: 2%;
   margin-bottom: 2%;
 }
 .logonav{
@@ -32,7 +35,7 @@ header{
 
 /* main */
 main{
-  width: 80%;
+  /* width: 80%; */
   margin: 0 auto;
   background-color: #0086ff;
   margin-bottom: 2%;
@@ -77,7 +80,7 @@ main .menu .widget{
 /* footer */
 footer{
   height: 100px;
-  width: 80%;
+  /* width: 80%; */
   margin: 0 auto;
   margin-top: 1%;
   margin-bottom: 2%;
