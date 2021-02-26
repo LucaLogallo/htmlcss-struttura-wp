@@ -1,6 +1,6 @@
 /* general */
 *{
-  margin:0 auto;
+  margin:0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -10,8 +10,9 @@
   clear: both;
 }
 
-body{
+.container{
   width: 80%;
+  margin: 0 auto;
 }
 /* header */
 header{
@@ -20,7 +21,8 @@ header{
   margin-top: 2%;
   margin-bottom: 2%;
 }
-.logonav{
+
+nav{
   height: 100px;
   width: 100%;
   background-color: #e579e6;
@@ -35,8 +37,7 @@ header{
 
 /* main */
 main{
-  /* width: 80%; */
-  margin: 0 auto;
+  /* margin: 0 auto; */
   background-color: #0086ff;
   margin-bottom: 2%;
 }
@@ -47,9 +48,7 @@ main{
   margin-bottom: 2%;
 }
 
-main .menu .links,
-main .menu .main-content,
-main .menu .widget{
+main .menu .col{
   float:left;
 }
 
